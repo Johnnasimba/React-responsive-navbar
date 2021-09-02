@@ -23,6 +23,7 @@ const ReactIcon = style.i`
     font-sizes: 1.6rem;
 `;
 const MenuIcon = style.div`
+    display: none;
 `;
 
 const Navbar = () => {
