@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import style from 'styled-components';
+import { Button } from '../button/button.component';
 import { MenuItems } from './menu-items';
 
 import './navbar.styles.css'
@@ -46,6 +47,7 @@ const Navbar = () => {
                 }
                 
             </ul>
+            <Button>Sign Up</Button>
         </NavbarItem>
     )
 }
