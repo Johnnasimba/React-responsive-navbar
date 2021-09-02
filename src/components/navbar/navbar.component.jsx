@@ -12,12 +12,19 @@ const  NavbarItem = style.nav`
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
+    @media screen and (max-width: 960px) {
+        position: relative;        
 `;
 const NavbarLogo =  style.h1`
     color: #fff;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
+    @media screen and (max-width: 960px) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(25%, 50%);       
 `;
 const ReactIcon = style.i`
     margin-left: 0.5rem;
@@ -25,6 +32,15 @@ const ReactIcon = style.i`
 `;
 const MenuIcon = style.div`
     display: none;
+    @media screen and (max-width: 960px) {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);   
+        font-size: 1.8rem; 
+        cursor: pointer; 
+
 `;
 
 const Navbar = () => {

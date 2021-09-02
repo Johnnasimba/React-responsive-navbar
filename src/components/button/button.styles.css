@@ -8,7 +8,7 @@
     border: none;
     cursor: pointer;
 }
-btn:hover{
+.btn:hover{
     padding: 8px 20px;
     transition: all 0.3 ease-out;
     background: #fff;
