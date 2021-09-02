@@ -1,5 +1,4 @@
-
-import Navbar from "../components/navbar/navbar.component";
+import Navbar from '../components/navbar/navbar.component'
 import "./App.css";
 
 function App() {
